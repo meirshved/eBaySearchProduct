@@ -19,7 +19,7 @@ public class ProjectTestBase {
 
     @AfterClass
     public static void tearsDown() throws InterruptedException {
-        Thread.sleep(1500);
-        //driver.quit();
+        Thread.sleep(1000);
+        driver.quit();
     }
 }
